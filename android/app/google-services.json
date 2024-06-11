@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "550926589656",
+    "project_id": "app-innovaro-gm",
+    "storage_bucket": "app-innovaro-gm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550926589656:android:7fd2c67f89c102d48b01ad",
+        "android_client_info": {
+          "package_name": "com.example.local_notification_app_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpA69Yrx7XwFIgkBYQ4gX1RyhlNiszzvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "app-innovaro-gm",
+    "y": "app-innovaro-banban",
+    "Y": "app-innovaro"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

@@ -1,0 +1,56 @@
+{
+    "nome": "lucas moreira",
+    "frete": 0,
+    "emissao": "2023-11-13 11:23:16",
+    "cliente": "553375",
+    "vendedor": "Alberto Parente",
+    "desconto": 0,
+    "dataPedido": "2023-11-13 11:23:16",
+    "observacao": "",
+    "pagamentos": [
+        {
+            "codigo": "Boleto",
+            "chave": 568089,
+            "tipoParcelamento": "BO",
+            "tipoDeDocumento": [
+                "Boleto"
+            ],
+            "qtdParcelas": 1,
+            "tipo": "BO",
+            "descricao": null,
+            "bandeira": [],
+            "rede": "",
+            "nossoNumero": null,
+            "idTransacao": null,
+            "autorizacaoTransacao": null,
+            "valor": 40
+        }
+    ],
+    "emissaoHora": "11:23:16",
+    "dataEntrega": "2023-12-13 11:21:15",
+    "chaveEstabelecimento": "435526",
+    "itens": [
+        {
+            "desconto": 2,
+            "recurso": "Zebra 1411",
+            "valor": 40,
+            "quantidade": 2,
+            "unitario": 20,
+            "chave": 900000003823305,
+            "ean": "900000003823305",
+            "codigo": "Oculos de Grau",
+            "classe": "Materiais e Produtos",
+            "estoque": 0,
+            "imgUrl": "",
+            "marca": "",
+            "ncm": "00.00.0000",
+            "total": 40,
+            "observacao": ""
+        }
+    ],
+    "valorTotal": 40,
+    "totalProdutos": 40,
+    "chcriacao": 1699885396,
+    "idTransacao": 1699885396,
+    "status": 1
+}
