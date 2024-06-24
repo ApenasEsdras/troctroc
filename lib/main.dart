@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_print, always_declare_return_types, require_trailing_commas, non_constant_identifier_names
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_modular/flutter_modular.dart';

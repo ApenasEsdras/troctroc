@@ -35,15 +35,13 @@ InputDecoration decorationInput(String labelText) {
     ),
     floatingLabelStyle: MaterialStateTextStyle.resolveWith(
       (Set<MaterialState> states) {
-        final Color color = states.contains(MaterialState.focused)
-            ? ThemeConfig.tema.colorScheme.primary
-            : ColorsApp.instance.CinzaMedio2;
+        final Color color = ColorsApp.instance.CinzaMedio2;
         return TextStyle(color: color);
       },
     ),
     focusedBorder: OutlineInputBorder(
       borderSide: BorderSide(
-        color: ThemeConfig.tema.colorScheme.primary,
+        color: ThemeConfig.themeInitial.primaryColor,
       ),
     ),
     enabledBorder: OutlineInputBorder(
