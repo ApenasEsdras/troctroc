@@ -19,8 +19,6 @@ class OnboardingService {
         'android': {
           'apiKey': data['android']['apiKey'],
           'appId': data['android']['appId'],
-          // 'authDomain': data['android']['authDomain'],
-          // 'measurementId': data['android']['measurementId'],
           'messagingSenderId': data['android']['messagingSenderId'],
           'projectId': data['android']['projectId'],
           'storageBucket': data['android']['storageBucket'],
@@ -37,13 +35,10 @@ class OnboardingService {
         'ios': {
           'apiKey': data['ios']['apiKey'],
           'appId': data['ios']['appId'],
-          // 'authDomain': data['ios']['authDomain'],
-          // 'measurementId': data['ios']['measurementId'],
           'messagingSenderId': data['ios']['messagingSenderId'],
           'projectId': data['ios']['projectId'],
           'storageBucket': data['ios']['storageBucket'],
         },
-    
       };
       if (kDebugMode) {
         print('dados do firebase ');

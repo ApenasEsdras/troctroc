@@ -17,7 +17,7 @@ const String OnBoardingText2 =
 
 const String OnBoardingText3 =
     'Agora você está pronto para acessar seu aplicativo! '
-    'Reiniciei para ter acesso. ';
+    'Click em Continuar para ter acesso. ';
 
 const String OnBoardingToken = 'Gerar chave';
 const String OnBoardingError = 'Código inválido';

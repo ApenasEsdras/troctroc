@@ -12,9 +12,6 @@ class AppWidget extends StatelessWidget {
     return MaterialApp.router(
       title: 'AppInnovaro',
       theme: ThemeConfig.temaInnovaro,
-      // theme: ThemeConfig.temaApp != 'innovaro'
-      //     ? ThemeConfig.temaFortesInnovaro
-      //     : ThemeConfig.temaInnovaro,
       routerConfig: Modular.routerConfig,
       debugShowCheckedModeBanner: false,
     );

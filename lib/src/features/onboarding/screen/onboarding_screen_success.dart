@@ -56,7 +56,7 @@ class OnBoardingScreenSuccess extends StatelessWidget {
                     onPressed: () async {
                       Restart.restartApp();
                     },
-                    child: const Text('Reiniciar'),
+                    child: const Text('Continuar'),
                   ),
                 ),
               ],
