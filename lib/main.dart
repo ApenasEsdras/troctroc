@@ -15,10 +15,6 @@ import 'src/config/firebase_options_config.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await _initializeApp();
-}
-
-Future<void> _initializeApp() async {
   NotificationService().initNotification();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
