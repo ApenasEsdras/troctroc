@@ -13,7 +13,7 @@ import 'package:hive/hive.dart';
 ///    ```
 /// 2. Em seguida, na raiz do diretório do seu projeto Flutter, execute o comando:
 ///    ```
-///    flutterfire configure --project=app-innovaro
+///    flutterfire configure --project
 ///    ```
 /// 3. Preencha os dados nos campos corretos no Firebase de homologação.
 

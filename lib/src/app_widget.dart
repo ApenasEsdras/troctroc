@@ -10,8 +10,8 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     Modular.setInitialRoute('/');
     return MaterialApp.router(
-      title: 'AppInnovaro',
-      theme: ThemeConfig.temaInnovaro,
+      title: 'troctroc',
+      theme: ThemeConfig.themeInitial,
       routerConfig: Modular.routerConfig,
       debugShowCheckedModeBanner: false,
     );

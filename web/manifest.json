@@ -1,9 +1,9 @@
 {
-    "name": "Forças de venda",
-    "short_name": "Forças de venda",
+    "name": "troctroc",
+    "short_name": "troctroc",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#F6A200",
+    "background_color": "#0175C2",
     "theme_color": "#0175C2",
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
