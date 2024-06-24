@@ -1,31 +1,8 @@
-// firebase_options.dart
-
-// ignore_for_file: avoid_print
+// ignore_for_file: avoid_print, always_declare_return_types, require_trailing_commas, non_constant_identifier_names
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
-
 import 'hive_config.dart';
-
-class FirebaseOptionsData {
-  final String? apiKey;
-  final String? appId;
-  final String? authDomain;
-  final String? measurementId;
-  final String? messagingSenderId;
-  final String? projectId;
-  final String? storageBucket;
-
-  FirebaseOptionsData({
-    this.apiKey,
-    this.appId,
-    this.authDomain,
-    this.measurementId,
-    this.messagingSenderId,
-    this.projectId,
-    this.storageBucket,
-  });
-}
 
 class FirebasePlatformOptions {
   final FirebaseOptions web;
@@ -52,25 +29,19 @@ class FirebasePlatformOptions {
 
 class DefaultFirebaseOptions {
   static FirebasePlatformOptions? _platformOptions;
-  static FirebaseOptions? get currentPlatform =>
-      _platformOptions?.getOptionsForPlatform();
+  static FirebaseOptions? get currentPlatform => _platformOptions?.getOptionsForPlatform();
 
   static void setPlatformOptions(FirebasePlatformOptions options) {
     _platformOptions = options;
   }
 
-  static Future<void> configureFirebaseOptionsFromBox() async {
-    final appSettings = AppSettings();
-    await appSettings.startSettings();
-
+  static Future<void> configureFirebaseOptionsFromBox(AppSettings appSettings) async {
     final webOptions = FirebaseOptions(
       apiKey: appSettings.box.get('apiKey_web'),
       appId: appSettings.box.get('appId_web'),
       messagingSenderId: appSettings.box.get('messagingSenderId_web'),
       projectId: appSettings.box.get('projectId_web'),
       storageBucket: appSettings.box.get('storageBucket_web'),
-      // authDomain: appSettings.box.get('authDomain_web'),
-      // measurementId: appSettings.box.get('measurementId_web'),
     );
 
     final androidOptions = FirebaseOptions(
@@ -98,3 +69,4 @@ class DefaultFirebaseOptions {
     );
   }
 }
+  
