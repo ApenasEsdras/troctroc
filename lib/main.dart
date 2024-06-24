@@ -8,12 +8,10 @@ import 'src/app_module.dart';
 import 'src/app_widget.dart';
 import 'src/config/hive_config.dart';
 import 'inital_firebase_options_config.dart';
-import 'src/repo_testes_widgets/notifi_service.dart';
 import 'src/config/firebase_options_config.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  NotificationService().initNotification();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
   await Hive.initFlutter();
